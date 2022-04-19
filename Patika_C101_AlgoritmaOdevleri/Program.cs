@@ -7,15 +7,13 @@ namespace algoritmaOdevleri
 {
     class Program
     {
-
         public static void Main()
         {
             MenuOptions();
             Console.WriteLine();
             MainMenu();
         }
-
-
+      
         public static void MainMenu()
         {            
             int selection = InputValidation();
@@ -203,6 +201,7 @@ namespace algoritmaOdevleri
             }
         }
 
+
         public static void ReturnToMainMenu()
         {
             Console.WriteLine();
@@ -215,6 +214,6 @@ namespace algoritmaOdevleri
             {
                 Main();
             }
-        }
+        } 
     }
 }
