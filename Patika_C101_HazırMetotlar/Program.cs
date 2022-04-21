@@ -104,6 +104,8 @@ namespace hazir_metotlar
             Console.WriteLine(Math.Log(9)); // 9'un e tabanındaki logaritmik karşılığı
             Console.WriteLine(Math.Exp(3)); // e üzeri 3
             Console.WriteLine(Math.Log10(10)); // 10 sayısının log 10 tabanındaki karşılığı
+
+
         }
         
         #endregion
