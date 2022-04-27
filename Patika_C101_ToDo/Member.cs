@@ -8,7 +8,7 @@ namespace Patika_C101_ToDo
 {
     public class Member:Card
     {
-        protected string memberName { get; }
+        public string memberName { get; }
         public int memberID { get; }
 
         public Nullable<int> cardResponsibility;
@@ -32,7 +32,7 @@ namespace Patika_C101_ToDo
         {
             Member.memberList.Add(new Member("Aragorn Elessar", 101, 1));
             Member.memberList.Add(new Member("Arwen Evenstar", 102, 2));
-            Member.memberList.Add(new Member("Frodo Baggins", 103));
+            Member.memberList.Add(new Member("Frodo Baggins", 103,3));
             Member.memberList.Add(new Member("Boromir Rohannes", 104));
         }
 
