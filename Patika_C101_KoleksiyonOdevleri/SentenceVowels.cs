@@ -10,8 +10,6 @@ namespace Patika_C101_KoleksiyonOdevleri
         {
             ArrayList vowelsArray = new ArrayList();
 
-
-
             Console.WriteLine("İşlem yapmak istediğiniz cümleyi giriniz:");
             string inputSentence = Console.ReadLine();
             string vowels = "aeıioöuü";
